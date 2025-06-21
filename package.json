@@ -1,0 +1,23 @@
+{
+  "name": "learn_queue",
+  "version": "1.0.0",
+  "main": "api.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch api.js",
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shehbaz khan",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "~4.17.23",
+    "@types/node": "^24.0.3"
+  },
+  "dependencies": {
+    "bullmq": "^5.54.3",
+    "express": "~4.21.2",
+    "zod": "^3.25.67"
+  }
+}
